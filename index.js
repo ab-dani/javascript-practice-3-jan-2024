@@ -109,7 +109,11 @@ for (let i = 0; i < 4; i++) {
 
 // TODO: make a new array of zooAnimals. Use a loop to print them all to the console.
 // Bonus: Can you think of a use for array.length in the for loop?
+let uniAnimals = ["Okapi", "Red Panda", "Axoloti", "Fossa", "Pangolin"]
 
+for (let i = 0; i < uniAnimals.length; i++){
+  console.log(uniAnimals[i]);
+}
 // TODO: make a new array of sports teams. Use a loop to print them all to the console.
 // Bonus: Can you think of a use for array.length in the for loop?
 
