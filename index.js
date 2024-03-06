@@ -156,7 +156,11 @@ console.log(animals);
 // so all the values are "-".
 let board = ["X", "O", "X", "O", "X", "O", "X", "O", "X"];
 console.log(board);
+for (let i = 0; i < board.length; i++) {
+  board[i] = "O";
+}
 
+console.log(board);
 // TODO: Use a for loop to reset the battlship board so all the values are open ocean. ("o")
 board = [
   "o",
@@ -176,6 +180,10 @@ board = [
   "o",
   "o",
 ];
+
+for (let i = 0; i < board.length; i++) {
+  board[i] = "0";
+}
 console.log(board);
 
 // TODO: Add, Commit, Push!
