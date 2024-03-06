@@ -1,6 +1,6 @@
 // IMPORTANT: Before we start,
 // create a new branch in git.
-// If you don't know how to do this, 
+// If you don't know how to do this,
 // re-watch the video or ask a friend, teacher, or TA.
 
 // Part 1
@@ -19,21 +19,17 @@ i++;
 console.log(`i++, again, brings i to ${i}`);
 
 // TODO: increment i to 3
-for (let i = 0; i < 3; i++) 
-console.log(`i++, again, brings i to ${i}`);
+for (let i = 0; i < 3; i++) console.log(`i++, again, brings i to ${i}`);
 
 // TODO: increment i to 4
-for (let j = 0; j < 4; j++) 
-console.log(`j++, again, brings j to ${j}`);
+for (let j = 0; j < 4; j++) console.log(`j++, again, brings j to ${j}`);
 
 // TODO: increment i to 5
-for (let m = 0; m < 5; m++) 
-console.log(`m++, again, brings m to ${m}`);
+for (let m = 0; m < 5; m++) console.log(`m++, again, brings m to ${m}`);
 
 // TODO: increment i to 10.
 // Then log out that value to the console.
-for (let p = 0 ;p < 10; p++)
-console.log(`p++, again, brings p to ${p}`)
+for (let p = 0; p < 10; p++) console.log(`p++, again, brings p to ${p}`);
 // Part 2
 // For loops can take care of this in just 3 lines!
 console.log("**** Introducing the for-loop! ****");
@@ -44,20 +40,20 @@ for (let i = 0; i < 10; i++) {
 
 // TODO: make a for loop that counts up to 25.
 
-for(let i =0; i < 25; i++){
+for (let i = 0; i < 25; i++) {
   console.log(`Now i is ${i}.`);
 }
 
 // TODO: make a for loop that counts up to 50.
-for(let i = 0; i < 50; i++){
+for (let i = 0; i < 50; i++) {
   console.log(`Now i is ${i}. `);
 }
 // TODO: make a for loop that counts up to 100.
-for(let i = 0; i <100; i++){
+for (let i = 0; i < 100; i++) {
   console.log(`Now i is ${i}.`);
 }
 // TODO: make a for loop that counts up to 1001.
-for(let i = 0; i <1001; i++){
+for (let i = 0; i < 1001; i++) {
   console.log(`Now i is ${i}.`);
 }
 // TODO: Add, Commit, Push!
@@ -109,17 +105,43 @@ for (let i = 0; i < 4; i++) {
 
 // TODO: make a new array of zooAnimals. Use a loop to print them all to the console.
 // Bonus: Can you think of a use for array.length in the for loop?
-let uniAnimals = ["Okapi", "Red Panda", "Axoloti", "Fossa", "Pangolin"]
+let uniAnimals = ["Okapi", "Red Panda", "Axoloti", "Fossa", "Pangolin"];
 
-for (let i = 0; i < uniAnimals.length; i++){
+for (let i = 0; i < uniAnimals.length; i++) {
   console.log(uniAnimals[i]);
 }
 // TODO: make a new array of sports teams. Use a loop to print them all to the console.
 // Bonus: Can you think of a use for array.length in the for loop?
+let draftOrder = [
+  "Bears",
+  "Commanders",
+  "Patriots",
+  "Cardinals",
+  "Chargers",
+  "Giants",
+  "Titans",
+  "Falcons",
+  "Bears",
+  "Jets",
+];
 
+for (let i = 0; i < draftOrder.length; i++) console.log(draftOrder[i]);
 // TODO: make a new array of anything else. Use a loop to print them all to the console.
 // Bonus: Can you think of a use for array.length in the for loop?
+let draftProps = [
+  "Marvin Harrison Jr",
+  "Caleb Williams",
+  "Joe Alt",
+  "Malik Nabers",
+  "Drake Maye",
+  "Brock Bowers",
+  "Jayden Daniels",
+  "Olumuyiwa Fashanu",
+  "Rome Odunze",
+  "Laiatu Latu",
+];
 
+for (let i = 0; i < draftOrder.length; i++) console.log(draftProps[i]);
 // TODO: Add, Commit, Push!
 
 // Part 4: Setting values
@@ -137,10 +159,22 @@ console.log(board);
 
 // TODO: Use a for loop to reset the battlship board so all the values are open ocean. ("o")
 board = [
-  "o", "D", "D", "o",
-  "S", "o", "o", "o",
-  "S", "C", "C", "C",
-  "S", "o", "o", "o",
+  "o",
+  "D",
+  "D",
+  "o",
+  "S",
+  "o",
+  "o",
+  "o",
+  "S",
+  "C",
+  "C",
+  "C",
+  "S",
+  "o",
+  "o",
+  "o",
 ];
 console.log(board);
 
@@ -149,10 +183,22 @@ console.log(board);
 // Part 5: resetting specific values
 
 board = [
-  "o", "D", "D", "o",
-  "S", "o", "o", "o",
-  "S", "C", "C", "C",
-  "S", "o", "o", "o",
+  "o",
+  "D",
+  "D",
+  "o",
+  "S",
+  "o",
+  "o",
+  "o",
+  "S",
+  "C",
+  "C",
+  "C",
+  "S",
+  "o",
+  "o",
+  "o",
 ];
 
 // Example: We can use a while loop in a for loop.
