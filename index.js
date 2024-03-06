@@ -19,33 +19,47 @@ i++;
 console.log(`i++, again, brings i to ${i}`);
 
 // TODO: increment i to 3
+for (let i = 0; i < 3; i++) 
 console.log(`i++, again, brings i to ${i}`);
 
 // TODO: increment i to 4
-console.log(`i++, again, brings i to ${i}`);
+for (let j = 0; j < 4; j++) 
+console.log(`j++, again, brings j to ${j}`);
 
 // TODO: increment i to 5
-console.log(`i++, again, brings i to ${i}`);
+for (let m = 0; m < 5; m++) 
+console.log(`m++, again, brings m to ${m}`);
 
 // TODO: increment i to 10.
 // Then log out that value to the console.
-
+for (let p = 0 ;p < 10; p++)
+console.log(`p++, again, brings p to ${p}`)
 // Part 2
 // For loops can take care of this in just 3 lines!
 console.log("**** Introducing the for-loop! ****");
 // TODO: change the for loop to iterate up to 10.
-for (let i = 0; i < 3; i++) {
+for (let i = 0; i < 10; i++) {
   console.log(`Now, i is ${i}.`);
 }
 
 // TODO: make a for loop that counts up to 25.
 
+for(let i =0; i < 25; i++){
+  console.log(`Now i is ${i}.`);
+}
+
 // TODO: make a for loop that counts up to 50.
-
+for(let i = 0; i < 50; i++){
+  console.log(`Now i is ${i}. `);
+}
 // TODO: make a for loop that counts up to 100.
-
+for(let i = 0; i <100; i++){
+  console.log(`Now i is ${i}.`);
+}
 // TODO: make a for loop that counts up to 1001.
-
+for(let i = 0; i <1001; i++){
+  console.log(`Now i is ${i}.`);
+}
 // TODO: Add, Commit, Push!
 // TODO: Comment out the above so that they don't bother you as you do the rest of the assignment.
 
