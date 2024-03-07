@@ -209,6 +209,10 @@ board = [
   "o",
 ];
 
+for (let i = 0; i < board.length; i++) {
+  // console.log(board);
+}
+
 // Example: We can use a while loop in a for loop.
 // Just nest them and make sure you
 // open and close your {} brackets.
@@ -268,9 +272,22 @@ for (let i = 0; i < board.length; i++) {
 console.log(board);
 
 // TODO: Sink the Destroyer (D)
+for (let i = 0; i < board.length; i++) {
+  if (board[i] === "D") {
+    board[i] = "X";
+  }
+}
 
+console.log(board);
 // TODO: Sink the Cruiser (C)
-
+for (let i = 0; i < board.length; i++) {
+  if (board[i] === "D") {
+    board[i] = "X";
+  }
+}
 // TODO: reset the board to open ocean again.
-
+for (let i = 0; i < board.length; i++) {
+  board[i] = "0";
+  console.log(board);
+}
 // Bonus: Think of a new application of what we did today. Write a TODO for yourself. It should be similar to what we did, but add your own twist. Try it out, and lets us know how it when with a quick message in the Slack channel!
